@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requierments.txt
 
 COPY ./scriptiq/ /ascii-script/scriptiq/
 
-CMD ["cd","scriptiq"]
+CMD ["python","scriptiq/ascii-script/__main__.py"]
